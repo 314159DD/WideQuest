@@ -1,0 +1,87 @@
+## Interface: 16001
+## Title: Wide Quest Log Forever
+## Notes: A wide quest log with two panes, the map of the selected quest beside it, and a Zone Info box under the map. Made for WoW Forever, and works best with Questie.
+## Author: tekkon
+## IconTexture: Interface\AddOns\WideQuest\Includes\Images\WideQuest
+## Version: 0.1.0
+## X-License: MIT
+## Category-enUS: Quests
+## Category-deDE: Quests
+## SavedVariables: WideQuestDB
+## OptionalDeps: Questie
+
+Includes/Libraries/LibStub/LibStub.lua
+Includes/Libraries/CallbackHandler-1.0/CallbackHandler-1.0.lua
+Includes/Libraries/AceLocale-3.0/AceLocale-3.0.lua
+Includes/Libraries/AceDB-3.0/AceDB-3.0.lua
+Includes/Libraries/AceGUI-3.0/AceGUI-3.0.xml
+Includes/Libraries/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+Includes/Libraries/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+Includes/Libraries/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+Includes/Libraries/AceConfig-3.0/AceConfig-3.0.lua
+Includes/Libraries/AceDBOptions-3.0/AceDBOptions-3.0.lua
+Includes/Libraries/LibSharedMedia-3.0/LibSharedMedia-3.0.lua
+
+Locales/enUS.lua
+Locales/deDE.lua
+Locales/esES.lua
+Locales/esMX.lua
+Locales/frFR.lua
+Locales/itIT.lua
+Locales/koKR.lua
+Locales/ptBR.lua
+Locales/ruRU.lua
+Locales/zhCN.lua
+Locales/zhTW.lua
+
+Data/Data.lua
+Data/Map-Reveal.lua
+Data/Quest-Tags.lua
+Data/Quest-Item-Counts.lua
+Data/Wowhead.lua
+Data/Default-Settings.lua
+
+Features/Core.lua
+Features/Utilities.lua
+Features/Questie-Data.lua
+Features/Fonts.lua
+Features/Quest-Log-API.lua
+Features/Share-Needs.lua
+Features/Quest-Details-Data.lua
+Features/Quest-Sort.lua
+Features/Quest-Display.lua
+Features/Quest-Objectives.lua
+Features/Quest-Info-Style.lua
+Features/Tracking-Mark.lua
+Features/Wowhead-Link.lua
+Features/Quest-Chain-Data.lua
+Features/Quest-Chain.lua
+Features/Window.lua
+Features/Turn-In-Line.lua
+Features/Tracking.lua
+Features/Quest-Log.lua
+Features/Quest-Log-Key.lua
+Features/Quest-List-Entries.lua
+Features/Quest-List-Party.lua
+Features/Quest-List.lua
+Features/Quest-Details-Rewards.lua
+Features/Quest-Details.lua
+Features/Player-Map-Pin.lua
+Features/Quest-Map.xml
+Features/Quest-Map.lua
+Features/Questie-Map.xml
+Features/Questie-Map.lua
+Features/Questie-Map-Tooltip.lua
+Features/Questie-Map-Quest-Giver.lua
+Features/Questie-Map-Areas.lua
+Features/Questie-Map-Area-Layer.lua
+Features/Quest-Map-Layers.lua
+Features/Quest-Map-Reveal.lua
+Features/Zone-Info-Data.lua
+Features/Zone-Info.lua
+
+Options/Options-Utilities.lua
+Options/Options-Fonts.lua
+Options/Options-Quest-Log.lua
+Options/Options-Profiles.lua
+Options/Options.lua

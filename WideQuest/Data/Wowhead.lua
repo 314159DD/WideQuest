@@ -1,0 +1,3 @@
+local _, ns = ...
+
+ns.WOWHEAD_QUEST_URL = "https://www.wowhead.com/classic/quest="

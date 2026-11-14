@@ -1,0 +1,6 @@
+Raw/
+*.zip
+__pycache__/
+dist/
+tools/
+node_modules/

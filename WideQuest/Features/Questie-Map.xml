@@ -1,0 +1,20 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Frame name="WideQuestQuestiePinTemplate" mixin="WideQuestPinMixin" enableMouse="true" virtual="true">
+		<Size x="12" y="12"/>
+		<Layers>
+			<Layer level="ARTWORK" textureSubLevel="-1">
+				<Texture parentKey="Glow" hidden="true">
+					<Anchors>
+						<Anchor point="CENTER"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="ARTWORK">
+				<Texture parentKey="Texture" setAllPoints="true"/>
+			</Layer>
+		</Layers>
+	</Frame>
+
+	<Frame name="WideQuestAreaPinTemplate" mixin="WideQuestPinMixin" virtual="true"/>
+</Ui>
